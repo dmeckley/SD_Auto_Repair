@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+/*
+	Filename: style.css
+
+	Author: Dustin Meckley
+	Date: 9/25/2018
+	Course: CITC1300-Beginning HTML and CSS Development
+	Assignment: Midterm Examination Website
+	Purpose: Cascading Style Sheet for the website	
+*/
+
+html {
+	background-image: url(../images/s_and_d_auto_repair_logo.png);
+}
+
+body {
+	font-family: Verdana, serif, Geneva, sans-serif, Arial;
+}
+
+header {
+	background-color: black;
+	padding-top: 5%;
+}
+
+a {
+	color: gold;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    font-family: Cursive, 'Times New Roman';
+}
+
+nav a {
+	display: inline-block;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 20px 1px;
+    width: 175px; 
+}
+
+nav a:link, nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+    background-color: gold;
+    color: black;
+}
+
+#wrapper {
+	width: 85%;
+	background-color: black;
+	margin: 0 auto;
+	border: 4px solid gold;
+}
+
+article { 
+	color: gold;
+    width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+	text-shadow: blue 2px 2px 1px,		
+				 white 5px 5px 25px;
+    padding: 50px 0;
+}
+
+blockquote p{
+	padding-bottom: 25px;
+}
+
+blockquote p:last-of-type {
+	border-top: 1px solid rgba(128,98,26,1.00);
+}
+
+blockquote p {
+	quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote p:before {
+	content:open-quote;
+}
+
+blockquote p:after {
+	content:close-quote;
+}
+
+p {
+	margin: 0 auto;
+	width: 58%;
+	line-height: 1.5em;
+}
+
+cite {
+   	color: rgb(110, 110, 255);
+}
+
+figure.office {
+	margin: 0 auto;
+	padding-top: 2.5%;
+	width: 75%;
+}
+
+.family {
+	margin-top: 25px;
+	padding: 0 35%; 
+}
+
+aside a {
+    display: inline-block;	
+}
+
+#testimonials img {
+	display: block;
+    margin: 20px auto;
+    width: 25%;
+}
+
+.contact {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.contact a:link, nav a:visited {
+	text-decoration: none;
+}
+
+.contact a:hover, a:active {
+	text-decoration: underline;
+}
+
+aside {
+	color: gold;
+}
+
+ul {
+	margin: 0 auto;
+	width: 60%;
+	line-height: 1.5em;
+	float: right;
+}
+
+figure img {
+	width: 75%;
+}
+
+figcaption {
+	text-align:center;
+	padding-top: 15px;
+}
+
+h2 {
+	display: block;
+	margin: 0 auto;
+    padding-bottom: 10px;
+	width: 75%;
+	line-height: 1.5em;
+	text-align: center;	
+	text-decoration: underline;
+	font-size: 1.25em;
+}
+
+#directions p {
+	text-align: center;	
+}
+
+.East22 {
+	padding-bottom: 50px;
+	margin: auto 50px;
+}
+
+.West22 {
+	padding-bottom: 50px;
+	text-align: right;
+}
+
+.NorthB {
+	padding-bottom: 50px;
+	text-align: left;
+}
+
+.SouthB {
+	padding-bottom: 50px;
+	text-align: right;
+}
+
+iframe {
+	display: block;
+	margin: 25px auto;
+}
+
+footer {
+	padding: 25px 0;
+	color: gold;
+	text-align: center;
+	font-size: .75em;
+}
+
+footer a:link, nav a:visited {
+	text-decoration: none;
+}
+
+footer a:hover, a:active {
+	text-decoration: underline;
+}
+
+div.row {
+	clear: both;
+}
+
+div.row::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+div[class^="col-"] {
+	float: left;
+}
+
+div.col-1-1 {
+	width: 100%;
+}
+
+div.col-1-2 {
+	width: 50%;
+	margin: 20px auto;
+}
+
+div.col-1-2 img {
+	display: block;
+    width: 50%;
+}
+
+div.col-1-2 p {
+	display: block;
+    width: 80%;
+
+	/*position: relative;
+	top: 4em;
+	width: 80%;*/
+}
+
+@media only screen and (max-width: 768px) {
+	
+
+}
